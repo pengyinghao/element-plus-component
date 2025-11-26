@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "noEmit": false
+  },
+  "include": ["src/index.ts", "src/components/**/*", "src/composables/**/*"],
+  "exclude": ["src/**/*.spec.ts", "src/**/*.test.ts", "node_modules"]
+}
